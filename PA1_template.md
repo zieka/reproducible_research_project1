@@ -1,11 +1,3 @@
----
-title: "peer_assignment_1"
-author: "Kyle Scully"
-date: "August 16, 2014"
-output: 
-  html_document:
-    keep_md: true
----
 
 # Introduction
 
