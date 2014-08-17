@@ -6,4 +6,4 @@ This repo contains the first peer assignment for the Coursera Reproducible Resea
 ## Usage:
 
 Using the knitr and R markdown packages in conjunction with R studio the file 
-**PA1_template.Rmd** will run the R code analysis and produce the html documentation.
+**PA1_template.Rmd** will run the R code analysis and produce the .md and .html versions.
