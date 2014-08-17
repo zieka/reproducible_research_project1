@@ -95,7 +95,7 @@ averages[which.max(averages$steps),]
 
 ##### Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
 
-```{r how_many_missing}
+```{r}
 missing <- is.na(data$steps)
 table(missing)
 ```
@@ -134,7 +134,7 @@ mean(total_steps)
 median(total_steps)
 ```
 
-The median value is higher after imputing missing data because the method chosen to impute the data is replacing them with averages so the median should naturally move towards the mean.
+The median value is higher after imputing missing data because the method chosen to impute the data is replacing NA values with averages so the median should naturally move towards the mean.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
